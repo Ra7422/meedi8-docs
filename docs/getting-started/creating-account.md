@@ -34,26 +34,41 @@ You'll see the login page with four options.
 
 ### 3. Choose Your Login Method
 
-**<img src="/img/logos/google.svg" alt="Google" width="16" style={{verticalAlign: 'middle'}} /> Google:**
-1. Click "Continue with Google"
-2. Select your Google account
-3. Grant permission
-
-**<img src="/img/logos/facebook.png" alt="Facebook" width="16" style={{verticalAlign: 'middle'}} /> Facebook:**
-1. Click "Continue with Facebook"
-2. Log in to Facebook if needed
-3. Grant permission
-
-**<img src="/img/logos/telegram.png" alt="Telegram" width="16" style={{verticalAlign: 'middle'}} /> Telegram:**
-1. Click "Continue with Telegram"
-2. Enter your phone number
-3. Confirm in Telegram app
-
-**<img src="/img/logos/email.svg" alt="Email" width="16" style={{verticalAlign: 'middle'}} /> Email:**
-1. Click "Sign up with Email"
-2. Enter your email address
-3. Create a password
-4. Verify your email
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', marginBottom: '24px'}}>
+  <div style={{padding: '16px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '12px'}}>
+    <p style={{marginBottom: '8px'}}><img src="/img/logos/google.svg" alt="Google" width="20" style={{verticalAlign: 'middle', marginRight: '8px'}} /><strong>Google</strong></p>
+    <ol style={{marginBottom: 0, paddingLeft: '20px'}}>
+      <li>Click "Continue with Google"</li>
+      <li>Select your Google account</li>
+      <li>Grant permission</li>
+    </ol>
+  </div>
+  <div style={{padding: '16px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '12px'}}>
+    <p style={{marginBottom: '8px'}}><img src="/img/logos/facebook.png" alt="Facebook" width="20" style={{verticalAlign: 'middle', marginRight: '8px'}} /><strong>Facebook</strong></p>
+    <ol style={{marginBottom: 0, paddingLeft: '20px'}}>
+      <li>Click "Continue with Facebook"</li>
+      <li>Log in to Facebook if needed</li>
+      <li>Grant permission</li>
+    </ol>
+  </div>
+  <div style={{padding: '16px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '12px'}}>
+    <p style={{marginBottom: '8px'}}><img src="/img/logos/telegram.png" alt="Telegram" width="20" style={{verticalAlign: 'middle', marginRight: '8px'}} /><strong>Telegram</strong></p>
+    <ol style={{marginBottom: 0, paddingLeft: '20px'}}>
+      <li>Click "Continue with Telegram"</li>
+      <li>Enter your phone number</li>
+      <li>Confirm in Telegram app</li>
+    </ol>
+  </div>
+  <div style={{padding: '16px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '12px'}}>
+    <p style={{marginBottom: '8px'}}><img src="/img/logos/email.svg" alt="Email" width="20" style={{verticalAlign: 'middle', marginRight: '8px'}} /><strong>Email</strong></p>
+    <ol style={{marginBottom: 0, paddingLeft: '20px'}}>
+      <li>Click "Sign up with Email"</li>
+      <li>Enter your email address</li>
+      <li>Create a password</li>
+      <li>Verify your email</li>
+    </ol>
+  </div>
+</div>
 
 ### 4. Complete Your Profile
 
