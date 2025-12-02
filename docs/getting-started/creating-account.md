@@ -26,7 +26,7 @@ You can connect your Telegram account after signing up with any method to import
 
 ### 1. Visit Meedi8
 
-Go to [meedi8.vercel.app](https://meedi8.vercel.app)
+Go to [app.meedi8.com](https://app.meedi8.com)
 
 ### 2. Click "Get Started" or "Sign In"
 

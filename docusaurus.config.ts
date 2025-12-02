@@ -66,7 +66,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://meedi8.vercel.app',
+          href: 'https://app.meedi8.com',
           label: 'Open App',
           position: 'right',
           className: 'navbar__link--primary',
@@ -98,11 +98,11 @@ const config: Config = {
           items: [
             {
               label: 'Pricing',
-              href: 'https://meedi8.vercel.app/pricing',
+              href: 'https://app.meedi8.com/pricing',
             },
             {
               label: 'About',
-              href: 'https://meedi8.vercel.app/about',
+              href: 'https://app.meedi8.com/about',
             },
             {
               label: 'Contact Support',

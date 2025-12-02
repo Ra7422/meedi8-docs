@@ -106,7 +106,7 @@ See [Plans & Pricing](/billing/plans) for full comparison.
 
 ### How do I upgrade my plan?
 
-Go to Settings → Subscription in the app, or visit our [pricing page](https://meedi8.vercel.app/pricing).
+Go to Settings → Subscription in the app, or visit our [pricing page](https://app.meedi8.com/pricing).
 
 ### Can I cancel anytime?
 

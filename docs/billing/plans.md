@@ -134,7 +134,7 @@ We offer a 7-day refund policy for first purchases. See our [Cancellation Policy
 
 ## Get Started
 
-[Sign Up Free](https://meedi8.vercel.app/signup) | [View Pricing](https://meedi8.vercel.app/pricing)
+[Sign Up Free](https://app.meedi8.com/signup) | [View Pricing](https://app.meedi8.com/pricing)
 
 ---
 
