@@ -16,7 +16,7 @@ Choose the plan that fits your needs. All prices are in GBP (£).
 | **Active Sessions** | 1 | Unlimited | Unlimited |
 | **Text Mediation** | Yes | Yes | Yes |
 | **Voice Mediation** | No | Yes | Yes |
-| **AI Voice Responses** | No | No | Yes |
+| **AI Voice Responses** | No | No | Coming Soon |
 | **File Uploads** | No | Up to 10MB | Up to 50MB |
 | **Transcript Storage** | 7 days | 30 days | 90 days |
 | **Professional Reports** | Basic summary | 1/month | 3/month |
@@ -68,7 +68,7 @@ Choose the plan that fits your needs. All prices are in GBP (£).
 
 **Everything in PLUS, plus:**
 - Unlimited voice mediations
-- AI voice responses (2-way conversation)
+- AI voice responses (coming soon)
 - File uploads up to 50MB
 - 3 professional reports per month
 - 90-day transcript storage

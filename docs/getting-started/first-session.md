@@ -29,11 +29,11 @@ We recommend starting with a **Solo session** to get comfortable with the platfo
 
 ## Starting a Solo Session
 
-### Step 1: Click "New Session"
-From your dashboard, click the **New Session** button.
+### Step 1: Open the Navigation Panel
+Tap the **menu button (☰)** in the top-right corner to open the Navigation Panel.
 
 ### Step 2: Select "Solo"
-Choose the Solo option for a private session.
+Tap the **Solo** button at the bottom of the Navigation Panel.
 
 ### Step 3: Describe the Situation
 Tell Meedi what's on your mind. You can:
@@ -62,11 +62,11 @@ When you're ready to finish, Meedi provides:
 
 ## Starting a Duo Mediation
 
-### Step 1: Click "New Session"
-From your dashboard, click **New Session**.
+### Step 1: Open the Navigation Panel
+Tap the **menu button (☰)** in the top-right corner to open the Navigation Panel.
 
-### Step 2: Select "Mediation"
-Choose the Mediation option for a duo session.
+### Step 2: Select "Duo"
+Tap the **Duo** button at the bottom of the Navigation Panel.
 
 ### Step 3: Complete Your Coaching
 Before involving the other person, you'll have a private coaching session with Meedi (just like Solo).

@@ -11,15 +11,24 @@ Meedi8 accepts various payment methods through our secure payment processor, Str
 
 ### Credit & Debit Cards
 
-- Visa
-- Mastercard
-- American Express
-- Discover
+<div style={{display: 'flex', gap: '16px', alignItems: 'center', marginBottom: '16px', flexWrap: 'wrap'}}>
+  <img src="/img/payment/visa.png" alt="Visa" height="40" />
+  <img src="/img/payment/mastercard.png" alt="Mastercard" height="40" />
+  <img src="/img/payment/amex.png" alt="American Express" height="40" />
+</div>
 
 ### Digital Wallets
 
-- Apple Pay
-- Google Pay
+<div style={{display: 'flex', gap: '16px', alignItems: 'center', marginBottom: '16px', flexWrap: 'wrap'}}>
+  <img src="/img/payment/apple_pay.png" alt="Apple Pay" height="40" />
+  <img src="/img/payment/google_pay.png" alt="Google Pay" height="40" />
+</div>
+
+### Powered by Stripe
+
+<div style={{marginBottom: '16px'}}>
+  <img src="/img/payment/stripe.png" alt="Stripe" height="40" />
+</div>
 
 ---
 
@@ -84,13 +93,13 @@ See our [Cancellation Policy](/billing/cancellation) for refund information.
 
 ## Currency
 
-All prices are in **USD**. Your bank may apply currency conversion fees for non-USD cards.
+All prices are in **GBP (£)**. Your bank may apply currency conversion fees for non-GBP cards.
 
 ---
 
 ## Questions?
 
-Contact [billing@meedi8.com](mailto:billing@meedi8.com) for payment issues.
+Contact [support@meedi8.com](mailto:support@meedi8.com) for payment issues.
 
 ---
 
