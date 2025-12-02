@@ -9,13 +9,14 @@ Get started with Meedi8 in less than 2 minutes.
 
 ## Sign Up Options
 
-Meedi8 supports three secure login methods:
+Meedi8 supports four secure login methods:
 
 | Method | Best For |
 |--------|----------|
-| **Google** | Quick access if you use Gmail |
-| **Facebook** | Easy if you're on Facebook |
-| **Telegram** | Great if you want to import chat history |
+| <img src="/img/logos/google.svg" alt="Google" width="20" style={{verticalAlign: 'middle'}} /> **Google** | Quick access if you use Gmail |
+| <img src="/img/logos/facebook.png" alt="Facebook" width="20" style={{verticalAlign: 'middle'}} /> **Facebook** | Easy if you're on Facebook |
+| <img src="/img/logos/telegram.png" alt="Telegram" width="20" style={{verticalAlign: 'middle'}} /> **Telegram** | Great if you want to import chat history |
+| <img src="/img/logos/email.svg" alt="Email" width="20" style={{verticalAlign: 'middle'}} /> **Email** | Traditional email and password |
 
 :::tip Telegram Import
 You can connect your Telegram account after signing up with any method to import chat history for context.
@@ -29,24 +30,30 @@ Go to [meedi8.vercel.app](https://meedi8.vercel.app)
 
 ### 2. Click "Get Started" or "Sign In"
 
-You'll see the login page with three options.
+You'll see the login page with four options.
 
 ### 3. Choose Your Login Method
 
-**Google:**
+**<img src="/img/logos/google.svg" alt="Google" width="16" style={{verticalAlign: 'middle'}} /> Google:**
 1. Click "Continue with Google"
 2. Select your Google account
 3. Grant permission
 
-**Facebook:**
+**<img src="/img/logos/facebook.png" alt="Facebook" width="16" style={{verticalAlign: 'middle'}} /> Facebook:**
 1. Click "Continue with Facebook"
 2. Log in to Facebook if needed
 3. Grant permission
 
-**Telegram:**
+**<img src="/img/logos/telegram.png" alt="Telegram" width="16" style={{verticalAlign: 'middle'}} /> Telegram:**
 1. Click "Continue with Telegram"
 2. Enter your phone number
 3. Confirm in Telegram app
+
+**<img src="/img/logos/email.svg" alt="Email" width="16" style={{verticalAlign: 'middle'}} /> Email:**
+1. Click "Sign up with Email"
+2. Enter your email address
+3. Create a password
+4. Verify your email
 
 ### 4. Complete Your Profile
 
