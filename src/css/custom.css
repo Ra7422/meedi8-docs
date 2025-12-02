@@ -11,23 +11,24 @@
    ============================================ */
 
 :root {
-  /* Primary Brand Colors */
-  --meedi8-teal: #10B981;
-  --meedi8-teal-dark: #059669;
-  --meedi8-teal-light: #D1FAE5;
-
+  /* Primary Brand Colors - Purple First */
   --meedi8-purple: #7C6CB6;
   --meedi8-purple-dark: #6B5CA6;
   --meedi8-purple-light: #E9E5F5;
 
-  /* Docusaurus Primary Color System */
-  --ifm-color-primary: #10B981;
-  --ifm-color-primary-dark: #0E9F6E;
-  --ifm-color-primary-darker: #0D9668;
-  --ifm-color-primary-darkest: #0A7C57;
-  --ifm-color-primary-light: #34D399;
-  --ifm-color-primary-lighter: #6EE7B7;
-  --ifm-color-primary-lightest: #A7F3D0;
+  /* Accent Color - Teal (secondary) */
+  --meedi8-teal: #10B981;
+  --meedi8-teal-dark: #059669;
+  --meedi8-teal-light: #D1FAE5;
+
+  /* Docusaurus Primary Color System - Purple */
+  --ifm-color-primary: #7C6CB6;
+  --ifm-color-primary-dark: #6B5CA6;
+  --ifm-color-primary-darker: #5F4F9C;
+  --ifm-color-primary-darkest: #4E4082;
+  --ifm-color-primary-light: #9585C7;
+  --ifm-color-primary-lighter: #A99ED3;
+  --ifm-color-primary-lightest: #C4BCE3;
 
   /* Neutral Colors */
   --meedi8-bg-primary: #F9FAFB;
@@ -63,7 +64,7 @@
   --ifm-code-font-size: 14px;
   --ifm-code-background: #F3F4F6;
   --ifm-code-border-radius: 6px;
-  --docusaurus-highlighted-code-line-bg: rgba(16, 185, 129, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(124, 108, 182, 0.1);
 
   /* Navbar */
   --ifm-navbar-height: 72px;
@@ -77,21 +78,21 @@
 
 /* Dark Mode Palette */
 [data-theme='dark'] {
-  --ifm-color-primary: #34D399;
-  --ifm-color-primary-dark: #10B981;
-  --ifm-color-primary-darker: #059669;
-  --ifm-color-primary-darkest: #047857;
-  --ifm-color-primary-light: #6EE7B7;
-  --ifm-color-primary-lighter: #A7F3D0;
-  --ifm-color-primary-lightest: #D1FAE5;
-
-  --meedi8-teal: #34D399;
-  --meedi8-teal-dark: #10B981;
-  --meedi8-teal-light: #064E3B;
+  --ifm-color-primary: #A78BFA;
+  --ifm-color-primary-dark: #8B5CF6;
+  --ifm-color-primary-darker: #7C3AED;
+  --ifm-color-primary-darkest: #6D28D9;
+  --ifm-color-primary-light: #C4B5FD;
+  --ifm-color-primary-lighter: #DDD6FE;
+  --ifm-color-primary-lightest: #EDE9FE;
 
   --meedi8-purple: #A78BFA;
   --meedi8-purple-dark: #8B5CF6;
   --meedi8-purple-light: #312E81;
+
+  --meedi8-teal: #34D399;
+  --meedi8-teal-dark: #10B981;
+  --meedi8-teal-light: #064E3B;
 
   --meedi8-bg-primary: #111827;
   --meedi8-bg-secondary: #1F2937;
@@ -107,7 +108,7 @@
   --ifm-code-background: #1F2937;
   --ifm-navbar-background-color: #1F2937;
   --ifm-footer-background-color: #111827;
-  --docusaurus-highlighted-code-line-bg: rgba(52, 211, 153, 0.15);
+  --docusaurus-highlighted-code-line-bg: rgba(167, 139, 250, 0.15);
 }
 
 /* ============================================
@@ -147,18 +148,18 @@ p {
 }
 
 a {
-  color: var(--meedi8-teal);
+  color: var(--meedi8-purple);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: var(--meedi8-teal-dark);
+  color: var(--meedi8-purple-dark);
   text-decoration: underline;
 }
 
 strong {
-  color: var(--meedi8-teal-dark);
+  color: var(--meedi8-purple-dark);
   font-weight: 600;
 }
 
@@ -173,7 +174,7 @@ strong {
 .navbar__title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--meedi8-teal);
+  color: var(--meedi8-purple);
 }
 
 .navbar__link {
@@ -184,17 +185,17 @@ strong {
 }
 
 .navbar__link:hover {
-  background-color: var(--meedi8-teal-light);
-  color: var(--meedi8-teal-dark);
+  background-color: var(--meedi8-purple-light);
+  color: var(--meedi8-purple-dark);
 }
 
 .navbar__link--primary {
-  background-color: var(--meedi8-teal);
+  background-color: var(--meedi8-purple);
   color: white !important;
 }
 
 .navbar__link--primary:hover {
-  background-color: var(--meedi8-teal-dark);
+  background-color: var(--meedi8-purple-dark);
   color: white !important;
 }
 
@@ -215,13 +216,13 @@ strong {
 }
 
 .menu__link:hover {
-  background-color: var(--meedi8-teal-light);
-  color: var(--meedi8-teal-dark);
+  background-color: var(--meedi8-purple-light);
+  color: var(--meedi8-purple-dark);
   text-decoration: none;
 }
 
 .menu__link--active {
-  background-color: var(--meedi8-teal);
+  background-color: var(--meedi8-purple);
   color: white;
   font-weight: 600;
 }
@@ -324,15 +325,15 @@ table {
 }
 
 thead {
-  background-color: var(--meedi8-teal-light);
+  background-color: var(--meedi8-purple-light);
 }
 
 th {
   padding: 12px 16px;
   text-align: left;
   font-weight: 600;
-  color: var(--meedi8-teal-dark);
-  border-bottom: 2px solid var(--meedi8-teal);
+  color: var(--meedi8-purple-dark);
+  border-bottom: 2px solid var(--meedi8-purple);
 }
 
 td {
@@ -349,7 +350,7 @@ tr:hover {
    ============================================ */
 
 .button {
-  background-color: var(--meedi8-teal);
+  background-color: var(--meedi8-purple);
   color: white;
   border: none;
   border-radius: var(--ifm-global-radius);
@@ -363,19 +364,19 @@ tr:hover {
 }
 
 .button:hover {
-  background-color: var(--meedi8-teal-dark);
+  background-color: var(--meedi8-purple-dark);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 4px 12px rgba(124, 108, 182, 0.3);
   color: white;
   text-decoration: none;
 }
 
 .button--secondary {
-  background-color: var(--meedi8-purple);
+  background-color: var(--meedi8-teal);
 }
 
 .button--secondary:hover {
-  background-color: var(--meedi8-purple-dark);
+  background-color: var(--meedi8-teal-dark);
 }
 
 /* ============================================
@@ -404,7 +405,7 @@ tr:hover {
 }
 
 .footer__link-item:hover {
-  color: var(--meedi8-teal);
+  color: var(--meedi8-purple);
 }
 
 .footer__copyright {
@@ -434,7 +435,7 @@ tr:hover {
 }
 
 .video-wrapper:hover {
-  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.2);
+  box-shadow: 0 8px 24px rgba(124, 108, 182, 0.2);
 }
 
 .video-wrapper iframe {
@@ -471,8 +472,8 @@ tr:hover {
 }
 
 .pagination-nav__link:hover {
-  border-color: var(--meedi8-teal);
-  background-color: var(--meedi8-teal-light);
+  border-color: var(--meedi8-purple);
+  background-color: var(--meedi8-purple-light);
   text-decoration: none;
 }
 
@@ -496,7 +497,7 @@ tr:hover {
    ============================================ */
 
 *:focus-visible {
-  outline: 3px solid var(--meedi8-teal);
+  outline: 3px solid var(--meedi8-purple);
   outline-offset: 2px;
 }
 
