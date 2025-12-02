@@ -52,6 +52,16 @@ const sidebars: SidebarsConfig = {
             'user-guide/features/break-feature',
           ],
         },
+        {
+          type: 'category',
+          label: 'Personal Growth',
+          items: [
+            'user-guide/personal-growth/breathing-exercises',
+            'user-guide/personal-growth/mood-tracking',
+            'user-guide/personal-growth/gratitude-journal',
+            'user-guide/personal-growth/achievements',
+          ],
+        },
       ],
     },
     {
