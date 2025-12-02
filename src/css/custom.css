@@ -1,0 +1,530 @@
+/**
+ * Meedi8 Documentation Custom Styles
+ * Last Updated: 2025-12-02
+ */
+
+/* Import Nunito font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+/* ============================================
+   COLOR SYSTEM
+   ============================================ */
+
+:root {
+  /* Primary Brand Colors */
+  --meedi8-teal: #10B981;
+  --meedi8-teal-dark: #059669;
+  --meedi8-teal-light: #D1FAE5;
+
+  --meedi8-purple: #7C6CB6;
+  --meedi8-purple-dark: #6B5CA6;
+  --meedi8-purple-light: #E9E5F5;
+
+  /* Docusaurus Primary Color System */
+  --ifm-color-primary: #10B981;
+  --ifm-color-primary-dark: #0E9F6E;
+  --ifm-color-primary-darker: #0D9668;
+  --ifm-color-primary-darkest: #0A7C57;
+  --ifm-color-primary-light: #34D399;
+  --ifm-color-primary-lighter: #6EE7B7;
+  --ifm-color-primary-lightest: #A7F3D0;
+
+  /* Neutral Colors */
+  --meedi8-bg-primary: #F9FAFB;
+  --meedi8-bg-secondary: #F3F4F6;
+  --meedi8-bg-tertiary: #FFFFFF;
+
+  --meedi8-text-primary: #111827;
+  --meedi8-text-secondary: #6B7280;
+  --meedi8-text-tertiary: #9CA3AF;
+
+  --meedi8-border: #E5E7EB;
+  --meedi8-border-light: #F3F4F6;
+
+  /* Semantic Colors */
+  --meedi8-success: #10B981;
+  --meedi8-warning: #F59E0B;
+  --meedi8-danger: #EF4444;
+  --meedi8-info: #3B82F6;
+
+  /* Typography */
+  --ifm-font-family-base: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  --ifm-font-family-monospace: 'Fira Code', 'Courier New', monospace;
+  --ifm-heading-font-weight: 600;
+
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.7;
+
+  /* Border Radius */
+  --ifm-global-radius: 12px;
+  --ifm-card-border-radius: 16px;
+
+  /* Code Blocks */
+  --ifm-code-font-size: 14px;
+  --ifm-code-background: #F3F4F6;
+  --ifm-code-border-radius: 6px;
+  --docusaurus-highlighted-code-line-bg: rgba(16, 185, 129, 0.1);
+
+  /* Navbar */
+  --ifm-navbar-height: 72px;
+  --ifm-navbar-background-color: var(--meedi8-bg-tertiary);
+  --ifm-navbar-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+  /* Footer */
+  --ifm-footer-background-color: var(--meedi8-bg-secondary);
+  --ifm-footer-padding-vertical: 48px;
+}
+
+/* Dark Mode Palette */
+[data-theme='dark'] {
+  --ifm-color-primary: #34D399;
+  --ifm-color-primary-dark: #10B981;
+  --ifm-color-primary-darker: #059669;
+  --ifm-color-primary-darkest: #047857;
+  --ifm-color-primary-light: #6EE7B7;
+  --ifm-color-primary-lighter: #A7F3D0;
+  --ifm-color-primary-lightest: #D1FAE5;
+
+  --meedi8-teal: #34D399;
+  --meedi8-teal-dark: #10B981;
+  --meedi8-teal-light: #064E3B;
+
+  --meedi8-purple: #A78BFA;
+  --meedi8-purple-dark: #8B5CF6;
+  --meedi8-purple-light: #312E81;
+
+  --meedi8-bg-primary: #111827;
+  --meedi8-bg-secondary: #1F2937;
+  --meedi8-bg-tertiary: #374151;
+
+  --meedi8-text-primary: #F9FAFB;
+  --meedi8-text-secondary: #D1D5DB;
+  --meedi8-text-tertiary: #9CA3AF;
+
+  --meedi8-border: #374151;
+  --meedi8-border-light: #1F2937;
+
+  --ifm-code-background: #1F2937;
+  --ifm-navbar-background-color: #1F2937;
+  --ifm-footer-background-color: #111827;
+  --docusaurus-highlighted-code-line-bg: rgba(52, 211, 153, 0.15);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+body {
+  font-family: var(--ifm-font-family-base);
+  background-color: var(--meedi8-bg-primary);
+  color: var(--meedi8-text-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--meedi8-text-primary);
+  font-weight: var(--ifm-heading-font-weight);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+p {
+  margin-bottom: 1.2em;
+}
+
+a {
+  color: var(--meedi8-teal);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--meedi8-teal-dark);
+  text-decoration: underline;
+}
+
+strong {
+  color: var(--meedi8-teal-dark);
+  font-weight: 600;
+}
+
+/* ============================================
+   NAVBAR
+   ============================================ */
+
+.navbar {
+  border-bottom: 1px solid var(--meedi8-border-light);
+}
+
+.navbar__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--meedi8-teal);
+}
+
+.navbar__link {
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.navbar__link:hover {
+  background-color: var(--meedi8-teal-light);
+  color: var(--meedi8-teal-dark);
+}
+
+.navbar__link--primary {
+  background-color: var(--meedi8-teal);
+  color: white !important;
+}
+
+.navbar__link--primary:hover {
+  background-color: var(--meedi8-teal-dark);
+  color: white !important;
+}
+
+/* ============================================
+   SIDEBAR
+   ============================================ */
+
+.menu {
+  padding: 16px;
+}
+
+.menu__link {
+  font-size: 15px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  color: var(--meedi8-text-secondary);
+}
+
+.menu__link:hover {
+  background-color: var(--meedi8-teal-light);
+  color: var(--meedi8-teal-dark);
+  text-decoration: none;
+}
+
+.menu__link--active {
+  background-color: var(--meedi8-teal);
+  color: white;
+  font-weight: 600;
+}
+
+.menu__list-item-collapsible {
+  font-weight: 600;
+  color: var(--meedi8-text-primary);
+  margin-top: 8px;
+}
+
+/* Nested menu indentation */
+.menu__list .menu__list {
+  padding-left: 16px;
+  border-left: 2px solid var(--meedi8-border-light);
+  margin-left: 8px;
+}
+
+/* ============================================
+   MAIN CONTENT
+   ============================================ */
+
+article {
+  max-width: 800px;
+}
+
+/* ============================================
+   CODE BLOCKS
+   ============================================ */
+
+code {
+  background-color: var(--ifm-code-background);
+  color: var(--meedi8-purple-dark);
+  border-radius: var(--ifm-code-border-radius);
+  padding: 2px 6px;
+  font-size: var(--ifm-code-font-size);
+  font-family: var(--ifm-font-family-monospace);
+  border: 1px solid var(--meedi8-border-light);
+}
+
+pre {
+  border-radius: var(--ifm-global-radius);
+  padding: 20px;
+  margin: 24px 0;
+  border: 1px solid var(--meedi8-border);
+}
+
+pre code {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* ============================================
+   ADMONITIONS
+   ============================================ */
+
+.admonition {
+  border-left: 4px solid;
+  border-radius: var(--ifm-global-radius);
+  padding: 16px 20px;
+  margin: 24px 0;
+}
+
+.admonition-heading {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.admonition-info {
+  background-color: rgba(59, 130, 246, 0.1);
+  border-left-color: var(--meedi8-info);
+}
+
+.admonition-tip {
+  background-color: var(--meedi8-teal-light);
+  border-left-color: var(--meedi8-teal);
+}
+
+.admonition-warning {
+  background-color: rgba(245, 158, 11, 0.1);
+  border-left-color: var(--meedi8-warning);
+}
+
+.admonition-danger {
+  background-color: rgba(239, 68, 68, 0.1);
+  border-left-color: var(--meedi8-danger);
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 24px 0;
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
+}
+
+thead {
+  background-color: var(--meedi8-teal-light);
+}
+
+th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--meedi8-teal-dark);
+  border-bottom: 2px solid var(--meedi8-teal);
+}
+
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--meedi8-border-light);
+}
+
+tr:hover {
+  background-color: var(--meedi8-bg-secondary);
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.button {
+  background-color: var(--meedi8-teal);
+  color: white;
+  border: none;
+  border-radius: var(--ifm-global-radius);
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: var(--meedi8-teal-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.button--secondary {
+  background-color: var(--meedi8-purple);
+}
+
+.button--secondary:hover {
+  background-color: var(--meedi8-purple-dark);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.footer {
+  background-color: var(--ifm-footer-background-color);
+  padding: var(--ifm-footer-padding-vertical) 0;
+  border-top: 1px solid var(--meedi8-border);
+}
+
+.footer__title {
+  color: var(--meedi8-text-primary);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+}
+
+.footer__link-item {
+  color: var(--meedi8-text-secondary);
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer__link-item:hover {
+  color: var(--meedi8-teal);
+}
+
+.footer__copyright {
+  color: var(--meedi8-text-tertiary);
+  font-size: 14px;
+  text-align: center;
+  margin-top: 32px;
+}
+
+/* ============================================
+   VIDEO EMBED
+   ============================================ */
+
+.video-container {
+  margin: 32px 0;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  aspect-ratio: 16 / 9;
+}
+
+.video-wrapper:hover {
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.2);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-caption {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--meedi8-text-secondary);
+  font-style: italic;
+}
+
+/* ============================================
+   PAGINATION
+   ============================================ */
+
+.pagination-nav {
+  margin-top: 64px;
+  padding-top: 32px;
+  border-top: 1px solid var(--meedi8-border);
+}
+
+.pagination-nav__link {
+  border: 1px solid var(--meedi8-border);
+  border-radius: var(--ifm-global-radius);
+  padding: 20px;
+  transition: all 0.2s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--meedi8-teal);
+  background-color: var(--meedi8-teal-light);
+  text-decoration: none;
+}
+
+.pagination-nav__label {
+  color: var(--meedi8-text-secondary);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.pagination-nav__sublabel {
+  color: var(--meedi8-text-primary);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+*:focus-visible {
+  outline: 3px solid var(--meedi8-teal);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .video-container {
+    margin: 24px -16px;
+  }
+
+  .video-wrapper {
+    border-radius: 0;
+  }
+}
