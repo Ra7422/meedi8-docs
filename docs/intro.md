@@ -10,6 +10,11 @@ Meedi8 is an **AI-powered mediation platform** that helps people resolve conflic
 
 ## What is Meedi8?
 
+<video width="100%" controls style={{borderRadius: '12px', marginBottom: '24px'}}>
+  <source src="/videos/Meedi_promo.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
 Meedi8 provides a safe, structured space for conflict resolution. Our AI mediator, trained in NVC techniques, guides conversations toward understanding and resolution.
 
 **Key features:**
@@ -19,6 +24,11 @@ Meedi8 provides a safe, structured space for conflict resolution. Our AI mediato
 - **Telegram Import** - Provide context by importing chat history
 
 ## How It Works
+
+<video width="100%" controls style={{borderRadius: '12px', marginBottom: '24px'}}>
+  <source src="/videos/Meedi8_process.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 ### 1. Share Your Perspective
 Start by telling Meedi about the situation. You can type, record voice messages, or upload files for context.
