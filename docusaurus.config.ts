@@ -47,10 +47,11 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Meedi8',
+      title: '',
       logo: {
         alt: 'Meedi8 Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
+        style: { height: '40px' },
       },
       items: [
         {
