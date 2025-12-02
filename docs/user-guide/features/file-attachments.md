@@ -21,7 +21,7 @@ Share documents and images to give Meedi more context.
 
 ### During a Session
 
-1. Click the **attachment icon** (paperclip)
+1. Click the **+ button** next to the message input
 2. Select your file
 3. Wait for upload to complete
 4. Continue the conversation
