@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 100">
+  <!-- Background -->
+  <rect width="500" height="100" fill="transparent"/>
+
+  <!-- "Powered by" text -->
+  <text x="250" y="25" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Powered by</text>
+
+  <!-- Anthropic Logo and Text -->
+  <g transform="translate(80, 45)">
+    <!-- Anthropic "A" symbol -->
+    <path d="M24.5 0L49 35H0L24.5 0Z" fill="#191919"/>
+    <text x="60" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#191919">ANTHROPIC</text>
+  </g>
+
+  <!-- OpenAI Logo and Text -->
+  <g transform="translate(300, 45)">
+    <!-- OpenAI hexagon logo (simplified) -->
+    <path d="M20 0C31.05 0 40 8.95 40 20S31.05 40 20 40 0 31.05 0 20 8.95 0 20 0zm0 8c-1.1 0-2 .9-2 2v8l-6.93 4a2 2 0 001 3.73l7.93-4.58 7.93 4.58a2 2 0 001-3.73L22 18v-8c0-1.1-.9-2-2-2z" fill="#191919"/>
+    <text x="50" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#191919">OpenAI</text>
+  </g>
+</svg>
