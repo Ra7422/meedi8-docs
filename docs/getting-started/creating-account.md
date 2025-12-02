@@ -17,8 +17,8 @@ Meedi8 supports three secure login methods:
 | **Facebook** | Easy if you're on Facebook |
 | **Telegram** | Great if you want to import chat history |
 
-:::tip Recommendation
-If you plan to import Telegram chat history for context, sign up with Telegram for seamless integration.
+:::tip Telegram Import
+You can connect your Telegram account after signing up with any method to import chat history for context.
 :::
 
 ## Step-by-Step Guide
