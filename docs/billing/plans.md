@@ -5,21 +5,24 @@ title: Plans & Pricing
 
 # Plans & Pricing
 
-Choose the plan that fits your needs.
+Choose the plan that fits your needs. All prices are in GBP (£).
 
 ## Plan Comparison
 
 | Feature | FREE | PLUS | PRO |
 |---------|------|------|-----|
-| **Price** | $0/month | $9.99/month | $19.99/month |
-| **Active Rooms** | 1 | 3 | Unlimited |
-| **Solo Sessions** | Yes | Yes | Yes |
-| **Duo Mediation** | Yes | Yes | Yes |
-| **Telegram Import** | No | Yes | Yes |
-| **Voice Messages** | No | Yes | Yes |
-| **Priority Support** | No | Yes | Yes |
-| **Advanced Reports** | No | No | Yes |
-| **Custom Branding** | No | No | Yes |
+| **Price** | £0/month | £12/month | £24/month |
+| **Yearly Price** | £0/year | £90/year | £180/year |
+| **Active Sessions** | 1 | Unlimited | Unlimited |
+| **Text Mediation** | Yes | Yes | Yes |
+| **Voice Mediation** | No | Yes | Yes |
+| **AI Voice Responses** | No | No | Yes |
+| **File Uploads** | No | Up to 10MB | Up to 50MB |
+| **Transcript Storage** | 7 days | 30 days | 90 days |
+| **Professional Reports** | Basic summary | 1/month | 3/month |
+| **Pattern Analytics** | No | No | Yes |
+| **Export for Therapists** | No | No | Yes |
+| **Support** | Email | Priority Email | 24-hour Priority |
 
 ---
 
@@ -28,63 +31,104 @@ Choose the plan that fits your needs.
 **Best for:** Trying Meedi8 or occasional use
 
 **Includes:**
-- 1 active room at a time
-- Solo sessions
-- Basic duo mediation
-- Standard reports
+- 1 active session at a time
+- Text-based mediation
+- Individual coaching with Meedi
+- Basic conversation summary
+- 7-day transcript access
 - Email support
 
 **Limitations:**
 - Must complete or close a session before starting another
-- No Telegram import
-- No voice messages
+- No voice features
+- No file uploads
 
 ---
 
-## PLUS Plan - $9.99/month
+## PLUS Plan - £12/month
 
-**Best for:** Regular users who want more flexibility
+**Best for:** Individuals and couples who need ongoing mediation tools
 
 **Everything in FREE, plus:**
-- 3 active rooms simultaneously
-- Telegram chat import
-- Voice messages
+- Unlimited text mediations
+- Voice-enabled mediations
+- File uploads up to 10MB
+- Automatic transcription
+- 30-day transcript storage
+- 1 professional report per month
 - Priority email support
-- Extended report history
 
-**Best value for most users!**
+**Yearly option:** £90/year (save ~37%)
 
 ---
 
-## PRO Plan - $19.99/month
+## PRO Plan - £24/month
 
-**Best for:** Power users and professionals
+**Best for:** Professionals, therapists, and organizations
 
 **Everything in PLUS, plus:**
-- Unlimited active rooms
-- Advanced analytics
-- Custom branding options
-- Dedicated support
-- API access (coming soon)
+- Unlimited voice mediations
+- AI voice responses (2-way conversation)
+- File uploads up to 50MB
+- 3 professional reports per month
+- 90-day transcript storage
+- Relationship pattern analytics
+- Export for therapists
+- 24-hour priority support
+
+**Yearly option:** £180/year (save ~37%)
+
+---
+
+## Professional Reports - £4 each
+
+Need additional reports beyond your plan limit? You can purchase extra professional reports individually.
+
+**What's included in a Professional Report:**
+- Comprehensive session analysis
+- Communication pattern insights
+- Actionable recommendations
+- Therapist-ready format
+- PDF export
+
+---
+
+## Launch Special
+
+**For a limited time, get 33% off your first year:**
+- **Plus:** £8/month (normally £12)
+- **Pro:** £16/month (normally £24)
+
+---
+
+## 7-Day Free Trial
+
+Both PLUS and PRO plans include a 7-day free trial:
+- Full access to all features
+- No charge until trial ends
+- Cancel anytime during trial
 
 ---
 
 ## Frequently Asked Questions
 
-### What counts as an "active room"?
-An active room is any session that isn't completed or deleted. Once you mark a session as resolved or delete it, it frees up that slot.
+### What counts as an "active session"?
+An active session is any mediation that isn't completed or deleted. Once you mark a session as resolved or delete it, it frees up that slot.
 
 ### Can I switch plans?
-Yes! Upgrade or downgrade anytime from Settings. Changes take effect immediately.
+Yes! Upgrade or downgrade anytime from Settings. Upgrades take effect immediately; downgrades take effect at the end of your billing cycle.
 
-### Is there a free trial?
-The FREE plan is always free. We don't offer trials of paid plans, but you can upgrade and cancel within 7 days for a full refund.
+### What payment methods do you accept?
+We accept all major credit/debit cards (Visa, Mastercard, Amex), Apple Pay, and Google Pay through our secure Stripe payment gateway.
+
+### Is my payment secure?
+Yes, all payments are processed securely through Stripe. We never store your card details.
 
 ### Do you offer annual billing?
-Not currently, but we're considering it. Sign up for our newsletter for updates.
+Yes! Annual billing is available for both PLUS (£90/year) and PRO (£180/year) plans. You'll save approximately 37% compared to monthly billing.
 
-### Are there team/enterprise plans?
-Contact [enterprise@meedi8.com](mailto:enterprise@meedi8.com) for custom solutions.
+### Can I get a refund?
+We offer a 7-day refund policy for first purchases. See our [Cancellation Policy](/billing/cancellation) for details.
 
 ---
 
@@ -98,3 +142,4 @@ Contact [enterprise@meedi8.com](mailto:enterprise@meedi8.com) for custom solutio
 
 - [Manage Your Subscription](/billing/manage-subscription)
 - [Payment Methods](/billing/payment-methods)
+- [Cancellation Policy](/billing/cancellation)
